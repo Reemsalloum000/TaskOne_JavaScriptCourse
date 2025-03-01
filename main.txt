@@ -1,0 +1,60 @@
+!DOCTYPE html
+html lang=en
+
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleDocumenttitle
+head
+
+body
+
+    h1Helloh1
+    pIn the context of developing an interactive and effective user interface, we have created a simple web page dedicated to Ramadan that displays essential information while incorporating various elements such as text, lists, tables, and a search field. Additionally, we have included a symbolic image related to Ramadan to enhance the visual aspect of the page. The goal of this task is to ensure that the page is smooth and user-friendly, while making sure that all elements function correctly and that the image appears clearly and appropriately. We are committed to following best practices in design and programming to ensure an excellent user experience that reflects the spirit of Ramadan.p
+
+    ul
+        liSet goals for spiritual growth (prayer, Quran reading, charity).li
+        liDecorate your home to welcome Ramadan.li
+
+    ul
+    table
+        thead
+            tr
+                thNameth
+                thIDth
+            tr
+        thead
+        tbody
+            tr
+                tdReemtd
+                td1202160td
+            tr
+        tbody
+    table
+    input type=text placeholder=Search...
+    img src=.ramadan.png alt=Ramadan image width=200 height=150
+    iframe width=560 height=315 src=httpswww.youtube.comembed7kIYZTtYWU0si=S1CjircHf-bgo1C9
+        title=YouTube video playeriframe
+    video width=500 height=300 controls
+        source src=.video.mp4 type=videomp4
+    video
+    div
+        form
+            label for=FNameThe Name label
+            input type=text id=FName
+            label for=EmailEmail label
+            input type=email id=Email
+            label for=PasswordPasswordlabel
+            input type=password id=Password
+            input type=submit value=submit
+
+        form
+        a
+            href=httpsmawdoo3.com%D8%A3%D8%AF%D8%B9%D9%8A%D8%A9_%D8%B1%D9%85%D8%B6%D8%A7%D9%86%D9%8A%D8%A9_%D9%82%D8%B5%D9%8A%D8%B1%D8%A9Go
+            to Ramadan Supplications
+        a
+        button type=button onclick=Click herebutton
+    div
+body
+
+html
